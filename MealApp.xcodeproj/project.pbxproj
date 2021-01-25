@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,19 @@
 		641E09AD25BDDE2700EAB990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E09AC25BDDE2700EAB990 /* ContentView.swift */; };
 		641E09AF25BDDE2A00EAB990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641E09AE25BDDE2A00EAB990 /* Assets.xcassets */; };
 		641E09B225BDDE2A00EAB990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641E09B125BDDE2A00EAB990 /* Preview Assets.xcassets */; };
+		641E09BC25BDDE5B00EAB990 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E09BB25BDDE5B00EAB990 /* HomeView.swift */; };
+		6471AA5025BE237800124956 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA4F25BE237800124956 /* Meal.swift */; };
+		6471AA5425BE245700124956 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6471AA5325BE245700124956 /* SDWebImageSwiftUI */; };
+		6471AA5825BE267400124956 /* PopularRecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA5725BE267400124956 /* PopularRecipesViewModel.swift */; };
+		6471AA5B25BE284400124956 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA5A25BE284400124956 /* Search.swift */; };
+		6471AA5F25BE2B0A00124956 /* PopularRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA5E25BE2B0A00124956 /* PopularRecipesView.swift */; };
+		6471AA6425BE2D8400124956 /* NewRecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA6325BE2D8400124956 /* NewRecipesViewModel.swift */; };
+		6471AA6725BE2E5400124956 /* NewRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA6625BE2E5400124956 /* NewRecipesView.swift */; };
+		6471AA6B25BE32A000124956 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA6A25BE32A000124956 /* RecipeDetailsView.swift */; };
+		6471AA6E25BE459600124956 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA6D25BE459600124956 /* Constants.swift */; };
+		6471AA7125BE460600124956 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA7025BE460600124956 /* SearchViewModel.swift */; };
+		6471AA7525BF191A00124956 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471AA7425BF191A00124956 /* SearchView.swift */; };
+		6471AA7C25BF223100124956 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6471AA7B25BF223100124956 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,18 @@
 		641E09AE25BDDE2A00EAB990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		641E09B125BDDE2A00EAB990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		641E09B325BDDE2A00EAB990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641E09BB25BDDE5B00EAB990 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6471AA4F25BE237800124956 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		6471AA5725BE267400124956 /* PopularRecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipesViewModel.swift; sourceTree = "<group>"; };
+		6471AA5A25BE284400124956 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		6471AA5E25BE2B0A00124956 /* PopularRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRecipesView.swift; sourceTree = "<group>"; };
+		6471AA6325BE2D8400124956 /* NewRecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipesViewModel.swift; sourceTree = "<group>"; };
+		6471AA6625BE2E5400124956 /* NewRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipesView.swift; sourceTree = "<group>"; };
+		6471AA6A25BE32A000124956 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
+		6471AA6D25BE459600124956 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6471AA7025BE460600124956 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		6471AA7425BF191A00124956 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		6471AA7B25BF223100124956 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6471AA5425BE245700124956 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +62,7 @@
 		641E099E25BDDE2700EAB990 = {
 			isa = PBXGroup;
 			children = (
+				6471AA7B25BF223100124956 /* README.md */,
 				641E09A925BDDE2700EAB990 /* MealApp */,
 				641E09A825BDDE2700EAB990 /* Products */,
 			);
@@ -52,6 +79,9 @@
 		641E09A925BDDE2700EAB990 /* MealApp */ = {
 			isa = PBXGroup;
 			children = (
+				6471AA5625BE265D00124956 /* ViewModel */,
+				6471AA4E25BE236100124956 /* Model */,
+				641E09BA25BDDE4B00EAB990 /* View */,
 				641E09AA25BDDE2700EAB990 /* MealAppApp.swift */,
 				641E09AC25BDDE2700EAB990 /* ContentView.swift */,
 				641E09AE25BDDE2A00EAB990 /* Assets.xcassets */,
@@ -67,6 +97,38 @@
 				641E09B125BDDE2A00EAB990 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		641E09BA25BDDE4B00EAB990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				641E09BB25BDDE5B00EAB990 /* HomeView.swift */,
+				6471AA5E25BE2B0A00124956 /* PopularRecipesView.swift */,
+				6471AA6625BE2E5400124956 /* NewRecipesView.swift */,
+				6471AA6A25BE32A000124956 /* RecipeDetailsView.swift */,
+				6471AA7425BF191A00124956 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6471AA4E25BE236100124956 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6471AA4F25BE237800124956 /* Meal.swift */,
+				6471AA5A25BE284400124956 /* Search.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6471AA5625BE265D00124956 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6471AA5725BE267400124956 /* PopularRecipesViewModel.swift */,
+				6471AA6325BE2D8400124956 /* NewRecipesViewModel.swift */,
+				6471AA7025BE460600124956 /* SearchViewModel.swift */,
+				6471AA6D25BE459600124956 /* Constants.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +147,9 @@
 			dependencies = (
 			);
 			name = MealApp;
+			packageProductDependencies = (
+				6471AA5325BE245700124956 /* SDWebImageSwiftUI */,
+			);
 			productName = MealApp;
 			productReference = 641E09A725BDDE2700EAB990 /* MealApp.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 641E099E25BDDE2700EAB990;
+			packageReferences = (
+				6471AA5225BE245700124956 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 641E09A825BDDE2700EAB990 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6471AA7C25BF223100124956 /* README.md in Resources */,
 				641E09B225BDDE2A00EAB990 /* Preview Assets.xcassets in Resources */,
 				641E09AF25BDDE2A00EAB990 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6471AA5025BE237800124956 /* Meal.swift in Sources */,
+				6471AA6E25BE459600124956 /* Constants.swift in Sources */,
+				641E09BC25BDDE5B00EAB990 /* HomeView.swift in Sources */,
+				6471AA6725BE2E5400124956 /* NewRecipesView.swift in Sources */,
+				6471AA5F25BE2B0A00124956 /* PopularRecipesView.swift in Sources */,
 				641E09AD25BDDE2700EAB990 /* ContentView.swift in Sources */,
+				6471AA7125BE460600124956 /* SearchViewModel.swift in Sources */,
+				6471AA5B25BE284400124956 /* Search.swift in Sources */,
+				6471AA7525BF191A00124956 /* SearchView.swift in Sources */,
+				6471AA6425BE2D8400124956 /* NewRecipesViewModel.swift in Sources */,
+				6471AA6B25BE32A000124956 /* RecipeDetailsView.swift in Sources */,
+				6471AA5825BE267400124956 /* PopularRecipesViewModel.swift in Sources */,
 				641E09AB25BDDE2700EAB990 /* MealAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6471AA5225BE245700124956 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6471AA5325BE245700124956 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6471AA5225BE245700124956 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 641E099F25BDDE2700EAB990 /* Project object */;
 }
